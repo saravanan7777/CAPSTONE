@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<style>
+
+		/* Styling the body */
+		body {
+			margin: 0;
+			padding: 0;
+		}
+        ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+  overflow: hidden;
+  color: black;
+  
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+ font-size:20px;
+ font-weight: bolder;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+		
+		/* Styling section, giving background
+			image and dimensions */
+		section {
+			width: 100%;
+			height: 100vh;
+			background-image: url('events.jpg');
+			background-size: cover;
+		}
+	
+		section .leftBox {
+			width: 50%;
+			height: 100%;
+			float: left;
+			padding: 50px;
+			box-sizing: border-box;
+		}
+	
+		section .leftBox .content {
+			color: #fff;
+			background: #9e7818;;
+			padding: 40px;
+			transition: .5s;
+		}
+		
+	
+		
+	
+		section .leftBox .content h1 {
+			margin: 0;
+			padding: 0;
+			font-size: 50px;
+			text-transform: uppercase;
+		}
+
+		section .leftBox .content p {
+			margin: 10px 0 0;
+			padding: 0;
+		}
+		
+	
+		section .events {
+			position: relative;
+			width: 50%;
+			height: 100%;
+			
+			float: right;
+			box-sizing: border-box;
+		}
+		
+	
+		section .events ul {
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%);
+			margin: 0;
+			padding: 40px;
+			box-sizing: border-box;
+		}
+		
+	
+		section .events ul li {
+			list-style: none;
+			background: #fff;
+			box-sizing: border-box;
+			height: 150px;
+			margin: 15px 0;
+		}
+	
+		section .events ul li .time {
+			position: relative;
+			padding: 20px;
+			background:  #9e7818;;
+			box-sizing: border-box;
+			width: 30%;
+			height: 100%;
+			float: left;
+			text-align: center;
+			transition: .5s;
+            color: white;
+		}
+		
+	
+		
+		
+		
+			class of events section */
+		section .events ul li .time h2 {
+			position: absolute;
+			margin: 0;
+			padding: 0;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			color: #fff;
+			font-size: 60px;
+			line-height: 30px;
+		}
+		
+	
+		section .events ul li .time h2 span {
+			font-size: 30px;
+		}
+		
+		
+		section .events ul li .details {
+			padding: 20px;
+			background: #fff;
+			box-sizing: border-box;
+			width: 70%;
+			height: 100%;
+			float: left;
+		}
+		
+	
+		section .events ul li .details h3 {
+			position: relative;
+			margin: 0;
+			padding: 0;
+			font-size: 22px;
+		}
+		
+		section .events ul li .details p {
+			position: relative;
+			margin: 10px 0 0;
+			padding: 0;
+			font-size: 16px;
+		}
+		
+		section .events ul li .details a {
+			display: inline-block;
+			text-decoration: none;
+			padding: 10px 15px;
+			border: 1.5px solid #262626;
+			margin-top: 8px;
+			font-size: 18px;
+			transition: .5s;
+		}
+        .nav{
+            background-color: #9e7818;
+           
+        }
+        .white{
+            color: #fff;
+        }
+		
+	</style>
+</head>
+
+<body>
+	<ul class="nav">
+    <li class="white"><a  class="white"href="index.html">Home</a></li>
+    <li class="white"><a class="white" href="events.html">Events</a></li>
+    <li class="white"><a class="white"href="register.html">Register</a></li>
+  </ul>
+    <section>
+		<div class="leftBox">
+			<div class="content">
+				<h1>
+					Events and Shows
+				</h1>
+				
+<p>
+    A science exhibition is a wonderful tool that engages students in learning new facts. It develops in them the curiosity to learn more which otherwise is not developed by listening to boring lectures. It provides a platform for the students to use their scientific knowledge and bring the best invention from their brains. It also allows students to work together in groups and learn from each other. They share their ideas and collectively galvanize those ideas to bring something innovative into implementation. This further allows the students to develop their social and moral skills and make them a better team player.   The schools in Bhubaneswar believe that science exhibitions help to explore the creative talent of the students and push them to think outside the box. Students enjoy learning through such exhibitions as they put effort and make models with their own hands. 
+				</p>
+
+			</div>
+		</div>
+
+		<div class="events">
+			<ul>
+				<li>
+					<div class="time">
+						<h2>
+							15 <br><span>October</span>
+						</h2>
+					</div>
+					<div class="details">
+						<h3>
+							Artificial Intelligence
+						</h3>
+						
+<p>
+    Artificial Intelligence & Engineered Tissues For Cardiac Disease Therapeutics
+						</p>
+
+
+						<a href="event1.html">View Details</a>
+					</div>
+					<div style="clear: both;"></div>
+				</li>
+
+				<li>
+					<div class="time">
+						<h2>
+							27 <br><span>October</span>
+						</h2>
+					</div>
+					<div class="details">
+						<h3>
+							Eleventh Cooley's Anemia Symposium 
+						</h3>
+						
+<p>
+    The Anemia Symposium will bring together basic scientists, clinical investigators, and clinicians .     
+						</p>
+
+						<a href="event2.html">View Details</a>
+					</div>
+					<div style="clear:both;"></div>
+				</li>
+                <li>
+					<div class="time">
+						<h2>
+							2 <br><span>November</span>
+						</h2>
+					</div>
+					<div class="details">
+						<h3>Webinar: Lyceum Society  2022 Meeting
+						</h3>
+						
+<p>The Lyceum Society is a collegial association of NYAS members, serving primarily those who are retired .
+						</p>
+
+						<a href="event3.html">View Details</a>
+					</div>
+					<div style="clear:both;"></div>
+				</li>
+
+				<li>
+					<div class="time">
+						<h2>
+							12 <br><span>November</span>
+						</h2>
+					</div>
+					<div class="details">
+						<h3>
+							Chemical Biology Discussion Group 
+						</h3>
+						
+<p>
+    The Chemical Biology Discussion Group brings together chemists and biologists interested in discussing the latest breakthroughs.  
+						</p>
+
+
+						<a href="event4.html">View Details</a>
+					</div>
+					<div style="clear:both;"></div>
+				</li>
+			</ul>
+		</div>
+	</section>
+</body>
+
+</html>
